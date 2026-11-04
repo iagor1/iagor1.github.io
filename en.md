@@ -31,3 +31,21 @@ A Python tool that automates the process of increasing EBS volumes attached to A
 **Technologies:** Python · AWS EC2 · EBS · boto3 · botocore · argparse · logging
 
 <a href="https://github.com/iagor1/resize_disk_ec2_automatically" style="display: inline-block; text-decoration: none; padding: 10px 14px; border: 1px solid #666; border-radius: 5px;">View project on GitHub →</a>
+
+### 🔎 Scan Resources Idle AWS
+
+A Python tool that scans the available regions in an AWS account to identify idle EC2-related resources and generate a CSV report. It helps find cost-saving opportunities and keep infrastructure organized.
+
+**What it does:**
+
+- finds stopped EC2 instances;
+- identifies unassociated Elastic IP addresses;
+- finds available and unattached EBS volumes;
+- scans all regions accessible with the configured credentials;
+- extracts resource names from the `Name` tag;
+- exports results to CSV, separated by resource type;
+- supports default credentials or a specific AWS profile.
+
+**Technologies:** Python · AWS EC2 · EBS · Elastic IP · boto3 · CSV
+
+<a href="https://github.com/iagor1/scan_resources_idle_aws" style="display: inline-block; text-decoration: none; padding: 10px 14px; border: 1px solid #666; border-radius: 5px;">View project on GitHub →</a>
