@@ -67,3 +67,20 @@ Projeto de infraestrutura desenvolvido para demonstrar a implantação ponta a p
 **Tecnologias:** Docker · Docker Compose · Grafana · Loki · Fluent Bit · HAProxy · SSL/TLS
 
 <a href="https://github.com/iagor1/grafana-centralized-logs" style="display: inline-block; text-decoration: none; padding: 10px 14px; border: 1px solid #666; border-radius: 5px;">Ver projeto no GitHub →</a>
+
+### 💾 MySQL Dump to S3
+
+Um shell script simples para automatizar o backup de bancos MariaDB/MySQL executados em contêineres Docker e enviar os arquivos compactados para um bucket Amazon S3. O script também pode ser agendado com `cron`.
+
+**O que o script faz:**
+
+- executa o `mysqldump` dentro do contêiner do banco;
+- comprime o backup com `gzip`;
+- gera nomes de arquivo com data e hora;
+- envia o arquivo `.sql.gz` para um caminho configurado no S3;
+- verifica se o upload foi concluído;
+- pode ser executado manualmente ou de forma agendada.
+
+**Tecnologias:** Shell Script · Docker · MariaDB/MySQL · AWS CLI · Amazon S3 · gzip · cron
+
+<a href="https://github.com/iagor1/send-mysql-dump-to-s3-script" style="display: inline-block; text-decoration: none; padding: 10px 14px; border: 1px solid #666; border-radius: 5px;">Ver projeto no GitHub →</a>
