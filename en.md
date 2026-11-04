@@ -26,7 +26,7 @@ A Python tool that automates the process of increasing EBS volumes attached to A
 - reads the current size and calculates the new size;
 - increases the volume in GiB through the AWS API;
 - supports simulation mode with `--dry-run`;
-- logs the operation steps and results.
+- logs the operation steps and results, excluding simulations.
 
 **Technologies:** Python · AWS EC2 · EBS · boto3 · botocore · argparse · logging
 
@@ -49,3 +49,21 @@ A Python tool that scans the available regions in an AWS account to identify idl
 **Technologies:** Python · AWS EC2 · EBS · Elastic IP · boto3 · CSV
 
 <a href="https://github.com/iagor1/scan_resources_idle_aws" style="display: inline-block; text-decoration: none; padding: 10px 14px; border: 1px solid #666; border-radius: 5px;">View project on GitHub →</a>
+
+### 📊 Grafana Centralized Logs
+
+An infrastructure project built to demonstrate an end-to-end observability deployment. The entire stack runs in Docker containers, from log collection to centralized visualization in Grafana.
+
+**What it demonstrates:**
+
+- collects Docker container logs in real time with Fluent Bit;
+- processes and forwards logs to Grafana Loki;
+- centralizes log search and visualization in Grafana;
+- uses HAProxy as a reverse proxy and service router;
+- configures HTTPS with SSL/TLS certificates;
+- organizes services with Docker Compose;
+- includes parsing, storage, dashboards, and access protection configurations.
+
+**Technologies:** Docker · Docker Compose · Grafana · Loki · Fluent Bit · HAProxy · SSL/TLS
+
+<a href="https://github.com/iagor1/grafana-centralized-logs" style="display: inline-block; text-decoration: none; padding: 10px 14px; border: 1px solid #666; border-radius: 5px;">View project on GitHub →</a>
