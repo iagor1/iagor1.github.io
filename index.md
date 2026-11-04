@@ -94,17 +94,14 @@ Um shell script simples para automatizar o backup de bancos MariaDB/MySQL execut
 
 ## Highlights na experiência profissional
 
-### Redução de tempo de deploy com Ansible
-Reduzido tempo de deploys em aproximadamente 80% apenas fazendo melhorias em templates ansible, foi usado tags pra melhorar a eficácia das tasks e pular etapas desnecessárias em determinadas situações. Tempo de deploy caiu de 3 horas pra 36 minutos.
+### Redução de 80% no tempo de deploy com Ansible
+Otimizei playbooks e templates do Ansible implementando o uso estratégico de *tags*, o que permitiu focar na eficácia das *tasks* e pular etapas desnecessárias de acordo com o cenário. Essa refatoração derrubou o tempo de deploy de 3 horas para apenas 36 minutos.
 
-### Colaborado no projeto de criação de imagens customizadas
+### Provisionamento de Golden Images
+Durante minha atuação no TJRO (Tribunal de Justiça de Rondônia), colaborei ativamente no projeto de criação de imagens customizadas do RHEL9 utilizando Packer, padronizando e agilizando as entregas do setor de infraestrutura.
 
-Projeto feito no meu estágio no TJRO (Tribunal de Justiça de Rondônia) para a criação de imagens personalizadas do RHEL9, atuei usando packer. Foi um trabalho muito interessante e me ajudou bastante o setor de infra.
+### Otimização de Proxy Reverso e Observabilidade
+Liderei a troca do algoritmo de balanceamento de carga no proxy reverso da empresa, garantindo muito mais performance e estabilidade ao produto. Integrado a isso, desenvolvi um script de monitoramento customizado em Lua utilizando a biblioteca do HAProxy, o que revolucionou a visibilidade e o monitoramento interno dos serviços.
 
-### Troca de algoritmo do balanceador de carga do proxy reverso
-
-A troca do algoritmo levou mais performance e estabilidade pro produto. Com essa troca também tive que criar um script de monitoramento de serviços baseado em lua e na biblioteca do Haproxy. Esse script revolucionou a forma de monitorar os serviços da empresa.
-
-### Automatizações
-
-Também fui responsável por várias automatizações no setor, principalmente em ansible, fui responsável por implementar com n8n avisos de deploys no discord visíveis para a empresa inteira por exemplo. Melhorias em processos manuais que foram transformados em código (seja lá pra qual linguagem ou ferramenta o foco é resolver o problema)
+### Automação de Processos (IaC)
+Transformação contínua de processos manuais em código (Infrastructure as Code) utilizando as melhores ferramentas para cada problema. Fui responsável por diversas automações no setor, incluindo a integração de fluxos com n8n para disparar alertas e status de deploys diretamente no Discord de forma transparente para toda a empresa.
