@@ -1,11 +1,18 @@
 ---
-layout: default
+layout: custom
 title: Home
 permalink: /en/
 ---
-<div style="text-align: right; margin-bottom: 20px;">
-  <a href="/" style="text-decoration: none; padding: 8px 12px; border: 1px solid #666; border-radius: 5px;">🇧🇷 Mudar para PT-BR</a>
-</div>
+<div id="google_translate_element" style="margin-bottom: 20px;"></div>
+<script>
+  function googleTranslateElementInit() {
+    new google.translate.TranslateElement(
+      { pageLanguage: 'en', includedLanguages: 'pt,es,fr,de', autoDisplay: false },
+      'google_translate_element'
+    );
+  }
+</script>
+<script src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
 
 # Hi, I'm Iagor 👋
 

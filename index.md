@@ -1,10 +1,17 @@
 ---
-layout: default
+layout: custom
 title: Início
 ---
-<div style="text-align: right; margin-bottom: 20px;">
-  <a href="/en/" style="text-decoration: none; padding: 8px 12px; border: 1px solid #666; border-radius: 5px;">🇺🇸 Switch to English</a>
-</div>
+<div id="google_translate_element" style="margin-bottom: 20px;"></div>
+<script>
+  function googleTranslateElementInit() {
+    new google.translate.TranslateElement(
+      { pageLanguage: 'pt', includedLanguages: 'en,es,fr,de', autoDisplay: false },
+      'google_translate_element'
+    );
+  }
+</script>
+<script src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
 
 # Olá, eu sou Iagor 👋
 
