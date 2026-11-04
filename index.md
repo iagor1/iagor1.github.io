@@ -85,10 +85,10 @@ Um shell script simples para automatizar o backup de bancos MariaDB/MySQL execut
 
 <a href="https://github.com/iagor1/send-mysql-dump-to-s3-script" style="display: inline-block; text-decoration: none; padding: 10px 14px; border: 1px solid #666; border-radius: 5px;">Ver projeto no GitHub →</a>
 
-## Marcos na experiência profissional
+## Highlights na experiência profissional
 
 ### Redução de tempo de deploy com Ansible
-Reduzido tempo de deploys em aproximadamente 80% apenas fazendo melhorias em templates ansible, foi usado tags pra melhorar a eficácia das tasks e pular etapas desnecessárias em determinadas situações. 
+Reduzido tempo de deploys em aproximadamente 80% apenas fazendo melhorias em templates ansible, foi usado tags pra melhorar a eficácia das tasks e pular etapas desnecessárias em determinadas situações. Tempo de deploy caiu de 3 horas pra 36 minutos.
 
 ### Colaborado no projeto de criação de imagens customizadas
 
@@ -100,4 +100,4 @@ A troca do algoritmo levou mais performance e estabilidade pro produto. Com essa
 
 ### Automatizações
 
-Também fui responsável por várias automatizações no setor, principalmente em ansible, fui responsável por implementar com n8n avisos de deploys no discord por exemplo. Melhorias em processos manuais que foram transformados em código (seja lá pra qual linguagem ou ferramenta o foco é resolver o problema)
+Também fui responsável por várias automatizações no setor, principalmente em ansible, fui responsável por implementar com n8n avisos de deploys no discord visíveis para a empresa inteira por exemplo. Melhorias em processos manuais que foram transformados em código (seja lá pra qual linguagem ou ferramenta o foco é resolver o problema)

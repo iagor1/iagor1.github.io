@@ -84,3 +84,21 @@ A simple shell script that automates backups of MariaDB/MySQL databases running 
 **Technologies:** Shell Script · Docker · MariaDB/MySQL · AWS CLI · Amazon S3 · gzip · cron
 
 <a href="https://github.com/iagor1/send-mysql-dump-to-s3-script" style="display: inline-block; text-decoration: none; padding: 10px 14px; border: 1px solid #666; border-radius: 5px;">View project on GitHub →</a>
+
+## Professional Experience Highlights
+
+### Reduced Deployment Time with Ansible
+
+Reduced deployment time by approximately 80% by improving Ansible templates. I introduced tags to make tasks more efficient and skip unnecessary steps in specific scenarios.
+
+### Contributed to a Custom Image Creation Project
+
+During my internship at TJRO (Court of Justice of Rondônia), I contributed to the creation of customized RHEL 9 images using Packer. This project gave me valuable hands-on experience supporting the infrastructure team.
+
+### Improved the Reverse Proxy Load-Balancing Algorithm
+
+Changed the reverse proxy's load-balancing algorithm to improve product performance and stability. As part of this work, I also created a service-monitoring script in Lua using the HAProxy library, significantly improving how services were monitored across the company.
+
+### Process Automation
+
+Implemented several process automations, primarily with Ansible. For example, I used n8n to send deployment notifications to Discord. I also converted manual processes into code and automation, always focusing on solving the underlying problem with the most appropriate language or tool.
