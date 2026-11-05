@@ -1,5 +1,5 @@
 ---
-layout: custom
+layout: default
 title: Início
 ---
 <div id="google_translate_element" style="margin-bottom: 20px;"></div>
