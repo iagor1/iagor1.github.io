@@ -13,6 +13,11 @@ title: Início
 </script>
 <script src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
 
+## Contatos
+
+- [Email](mailto:iagorluchesi@gmail.com)
+- [LinkedIn](https://www.linkedin.com/in/iagorml/)
+
 # Olá, eu sou Iagor 👋
 
 ## Portfólio
